@@ -1,8 +1,8 @@
-#Employee Attrition
+# Employee Attrition
 
 Identifying the key reasons for attrition, creating actionable insights, and presenting them through a dashboard.
 
-##Data Insight
+## Data Insight
 
 •	Employees are spread across different departments and locations.
 
