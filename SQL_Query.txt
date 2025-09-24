@@ -1,0 +1,6 @@
+SELECT Department, COUNT(*) AS No_of_exits_last_6m
+FROM employee_final_data
+WHERE Date_of_Exit IS NOT NULL AND Date_of_Exit >= CURRENT_DATE - INTERVAL '6 months'
+GROUP BY Department
+ORDER BY exits_last_6m DESC
+LIMIT 5;
